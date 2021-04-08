@@ -1,0 +1,16 @@
+.article {
+  width: 500px;
+  max-height: 300px;
+  height: auto;
+  overflow-y: hidden;
+  padding: 32px;
+  display: inline-block;
+  margin: 16px auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.articleTitle {
+  font-size: 24px;
+  font-weight: 500;
+}

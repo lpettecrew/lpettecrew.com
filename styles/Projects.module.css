@@ -1,0 +1,24 @@
+.projects {
+  text-align: center;
+  height: 75vh;
+  overflow-y: auto;
+}
+
+.projectsTitle {
+  font-size: 64px;
+}
+
+.projectTitle {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.projectWrapper {
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 32px;
+  border-radius: 15px;
+  max-width: 100%;
+  display: inline-block;
+  margin: 16px auto;
+}

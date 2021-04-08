@@ -1,0 +1,36 @@
+.navOuter {
+  position: fixed;
+  z-index: 999;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.homeLink {
+  position: absolute;
+  left: 64px;
+  top: 64px;
+  pointer-events: all;
+}
+
+.aboutLink {
+  position: absolute;
+  right: 64px;
+  top: 64px;
+  pointer-events: all;
+}
+
+.blogLink {
+  position: absolute;
+  left: 64px;
+  bottom: 64px;
+  pointer-events: all;
+}
+
+.projectsLink {
+  position: absolute;
+  right: 64px;
+  bottom: 64px;
+  pointer-events: all;
+}
