@@ -16,12 +16,12 @@ export default function Blog({ articles }) {
         title="Blog | Leo Pettecrew"
         description="Read up on some topics I found interesting..."
       />
-      <h1 className={styles.blogTitle}>Blog</h1>
+      <h1 className="text-6xl text-center">Blog</h1>
       <br />
-      <div className={styles.blog}>
+      <div className="flex flex-wrap justify-center">
         <br />
-        {articles.map((item) => (
-          <Article article={item} />
+        {articles.map((item, key) => (
+          <Article key={key} article={item} />
         ))}
       </div>
     </div>

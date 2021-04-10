@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  p {
+    @apply text-lg;
+  }
+}
+
 html,
 body {
   max-height: 100vh;

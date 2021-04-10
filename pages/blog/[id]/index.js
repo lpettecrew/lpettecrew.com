@@ -13,9 +13,9 @@ const Article = ({ article }) => {
       className={styles.article}
     >
       <Meta title={article.title} description={article.excerpt} />
-      <h1 className={styles.articleTitle}>{article.title}</h1>
+      <h1 className="text-3xl">{article.title}</h1>
       <br />
-      <p className={styles.articleBody}>{article.body}</p>
+      <p>{article.body}</p>
       <br />
       <Link href="/blog">
         <a className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">

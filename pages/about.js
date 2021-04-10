@@ -15,35 +15,41 @@ export default function About() {
         title="About"
         description="Hi! I'm Leo, a web developer from Manchester."
       />
-      <h1 className={styles.aboutTitle}>About</h1>
+      <h1 className="text-6xl">About</h1>
       <br />
       <p>
         Hi! I'm Leo, a web developer from Manchester. I work with a full stack,
-        meaning I take care of both the front and the back end of a website
+        meaning I take care of both the front and the back end of a website.
+        <br />
+        At the moment, however, I'm just looking to focus on my studies - I'll
+        likely start freelance work again in summer, 2021. So if you have any
+        questions just send me a message and I'll get back to you :-)
       </p>
-      <p>I have experience using a variety of technologies, including:</p>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript (TypeScript)</li>
+      <br />
+      <p>
+        I am constantly learning new technologies, but as of the present, I have
+        strong knowledge of the following languages:
+      </p>
+      <ul className="list-disc">
+        <li>HTML, CSS, JavaScript, TypeScript</li>
         <li>PHP</li>
+        <li>JAM Stack (Next.js)</li>
         <li>Node.js</li>
-        <li>React.js</li>
-        <li>Next.js</li>
         <li>Python</li>
         <li>C++</li>
       </ul>
       <p>
         I've also got experience with database management on a small scale.
-        Typically using PostgreSQL in conjuction with MySQL.
+        Typically using PostgreSQL, or phpMyAdmin (if the project is using PHP)
+        in conjuction with MySQL.
       </p>
       <br />
-      <h2 className={styles.aboutSubTitle}>Hobbies</h2>
+      <h2 className="text-3xl">Hobbies</h2>
       <br />
       <p>
-        Outside my web dev life, I'm studying for my A-levels (Maths, Further
-        Maths, Computer Science &amp; Psychology), which I am due to finish in
-        2022.
+        Outside my web dev life, I'm currently at Sixth form where I'm studying
+        for my A-levels (Maths, Further Maths, Computer Science &amp;
+        Psychology), which I am due to finish in 2022.
       </p>
       <p>I also enjoy lifting, reading and competing in coding competitions.</p>
       <p>

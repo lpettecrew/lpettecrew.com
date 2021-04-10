@@ -16,7 +16,7 @@ export default function Contact() {
         title="Contact | Leo Pettecrew"
         description="Get in touch with me!"
       />
-      <h1 className={styles.contactTitle}>Contact</h1>
+      <h1 className="text-6xl">Contact</h1>
       <br />
       <form className={styles.contactForm}>
         <div className={styles.formLeft}>

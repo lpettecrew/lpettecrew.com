@@ -15,20 +15,19 @@ export default function Projects() {
         title="Projects | Leo Pettecrew"
         description="Check out some of my awesome projects!"
       />
-      <h1 className={styles.projectsTitle}>Projects</h1>
+      <h1 className="text-6xl">Projects</h1>
       <br />
       <div className={styles.projectWrapper}>
         <img src="../images/aheathcotept.jpg" />
         <br />
-        <h2 className={styles.projectTitle}>
-          Adam Heathcote Personal Training
-        </h2>
+        <h2 className="text-xl font-bold">Adam Heathcote Personal Training</h2>
         <br />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          dolorem vitae, assumenda veritatis veniam ullam facilis expedita eos
-          repellat accusamus, minus asperiores suscipit esse voluptatem
-          dignissimos voluptatibus eveniet at officia.
+          Adam Heathcote is a personal trainer who works with clients 1 to 1, or
+          in group sessions. I created this website for him last year, March
+          2020. The website features a way for clients to contact him via a
+          contact form, as well as a blog section where he can log in as an
+          administrator, create/edit or delete blog posts.
         </p>
         <br />
         <a
@@ -42,15 +41,12 @@ export default function Projects() {
       <div className={styles.projectWrapper}>
         <img src="../images/1stdavyhulme.jpg" />
         <br />
-        <h2 className={styles.projectTitle}>
-          Adam Heathcote Personal Training
-        </h2>
+        <h2 className="text-xl font-bold">1st Davyhulme Scout Group</h2>
         <br />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          dolorem vitae, assumenda veritatis veniam ullam facilis expedita eos
-          repellat accusamus, minus asperiores suscipit esse voluptatem
-          dignissimos voluptatibus eveniet at officia.
+          1st Davyhulme Scout group is a scout group based in Davyhulme, which I
+          attended throughout my childhood. As a way to give back to the
+          community I created them a website.
         </p>
         <br />
         <a
