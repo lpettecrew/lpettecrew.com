@@ -18,7 +18,10 @@ export default function Projects() {
       <h1 className="text-6xl">Projects</h1>
       <br />
       <div className={styles.projectWrapper}>
-        <img src="../images/aheathcotept.jpg" />
+        <img
+          src="../images/aheathcotept.jpg"
+          alt="Adam Heathcote Personal Training"
+        />
         <br />
         <h2 className="text-xl font-bold">Adam Heathcote Personal Training</h2>
         <br />
@@ -39,7 +42,7 @@ export default function Projects() {
         </a>
       </div>
       <div className={styles.projectWrapper}>
-        <img src="../images/1stdavyhulme.jpg" />
+        <img src="../images/1stdavyhulme.jpg" alt="1st Davyhulme Scout Group" />
         <br />
         <h2 className="text-xl font-bold">1st Davyhulme Scout Group</h2>
         <br />
